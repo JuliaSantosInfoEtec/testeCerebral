@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubarão!</title>
+</head>
+<body>
+
+
+    
+    <link rel="stylesheet" href="tubarao.css">
+
+    <h1 id="resultado"></h1>
+
+    <script>
+        
+        //Acessando o dado salvo em localStorage e atribuindo ao h1 da página
+         document.getElementById("resultado").innerHTML = localStorage.getItem('porcTubarao');
+    </script>
+
+    <div class="textDiv">
+        <h2><i id="spaceText" class="fas fa-search"></i> <p>Em geral: toma providências, estabelece procedimentos, é <br>
+            confiável, organiza, é arrumado, pontual, planeja. <br>
+
+            <p>Gosta de cumprir o cronograma, construir coisas, estar no <br>
+                controle, de ambiente organizado, fazer tarefas burocráticas, <br>
+                colocar ordem nas ações, planejar, estabilizar, administrar. </p></h2>
+    </div>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<a href="#" class="photo" id="ab">
+ 
+  
+    <img src="./imagens/tuba.png">
+  <div class="glow-wrap">
+    <i class="glow"></i>
+  </div>
+</a>
+
+<div class="refazer">
+    <a class="ab" href="index.html"><span>Refazer</span></a>
+  </div>
+
+  <div class="finalizar">
+    <a class="buttonfinalizar" href="final.html"><span>Finalizar</span></a>
+  </div>
+
+
+    
+</body>
+</html>
+   

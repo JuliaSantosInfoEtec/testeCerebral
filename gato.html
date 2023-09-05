@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato!</title>
+</head>
+<body>
+
+
+    
+    <link rel="stylesheet" href="gato.css">
+   
+    <h1 id="resultado"></h1>
+
+    <script>
+        
+        //Acessando o dado salvo em localStorage e atribuindo ao h1 da página
+         document.getElementById("resultado").innerHTML = localStorage.getItem('porcGato');
+    </script>
+    
+
+    <div class="textDiv">
+        <h2><i id="spaceText" class="fas fa-search"></i> <p>De forma geral: é curioso, brinca, é sensível com os <br> outros gosta de ensinar, 
+             toca muito nas pessoas, gosta <br> de apoiar, é expressivo, emocional, fala muito. <br>
+<br>
+                 Gosta de conseguir que os outros trabalhem bem juntos, <br>
+                  de resolver questões de clientes, expressar ideias, <br>
+            desenvolver relacionamentos, fazer parte de uma equipe, <br>
+            convencer as pessoas, perceber o ambiente. </p></h2>
+    </div>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<a href="#" class="photo" id="ab">
+ 
+  
+    <img src="./imagens/gatin.png">
+  <div class="glow-wrap">
+    <i class="glow"></i>
+  </div>
+</a>
+
+<div class="refazer">
+    <a class="ab" href="index.html"><span>Refazer</span></a>
+  </div>
+
+  <div class="finalizar">
+    <a class="buttonfinalizar" href="final.html"><span>Finalizar</span></a>
+  </div>
+
+
+    
+</body>
+</html>
