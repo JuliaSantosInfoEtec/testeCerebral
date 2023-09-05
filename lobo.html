@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobo!</title>
+</head>
+<body>
+
+
+    
+    <link rel="stylesheet" href="lobo.css">
+    <h1 id="resultado"></h1>
+
+    <script>
+        
+        //Acessando o dado salvo em localStorage e atribuindo ao h1 da página
+         document.getElementById("resultado").innerHTML = localStorage.getItem('porcLobo');
+    </script>
+
+    <div class="textDiv">
+        <h2><i id="spaceText" class="fas fa-search"></i> <p>Analisa, quantifica, é lógico, é crítico, é realista, gosta <br>
+             de números, entende de dinheiro, sabe como as <br>
+              coisas funcionam. <br>
+
+            <p>Gosta de trabalhar sozinho, realizar, analisar dados, lidar <br>
+            com aspectos financeiros, montar as coisas, fazer algo <br> 
+            funcionar, resolver problemas difíceis. </p></h2>
+    </div>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<a href="#" class="photo" id="ab">
+ 
+  
+    <img src="./imagens/lobo.png">
+  <div class="glow-wrap">
+    <i class="glow"></i>
+  </div>
+</a>
+
+<div class="refazer">
+    <a class="ab" href="index.html"><span>Refazer</span></a>
+  </div>
+
+  <div class="finalizar">
+    <a class="buttonfinalizar" href="final.html"><span>Finalizar</span></a>
+  </div>
+
+
+    
+</body>
+</html>
+   
